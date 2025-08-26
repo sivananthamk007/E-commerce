@@ -27,7 +27,8 @@ export default function Cart() {
                 ) : (
                     <div className='pt-10'>
                         <h1>cart items not there</h1>
-                        <span>    Go to                    < button onClick={() => navigate('/')} className='mt-5 text-sm text-blue-700 hover:cursor-pointer'> Home Page</button>
+                        <span> Go to
+                            < button onClick={() => navigate('/')} className='mt-5 text-sm text-blue-700 hover:cursor-pointer'> Home Page</button>
                         </span>
                     </div>
                 )

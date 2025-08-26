@@ -12,7 +12,7 @@ function App() {
     <div className="">
       <Provider store={Store}>
 
-        <BrowserRouter>
+        <BrowserRouter basename="/E-commerce">
           <Home />
         </BrowserRouter>
       </Provider>

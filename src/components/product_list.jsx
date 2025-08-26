@@ -7,16 +7,16 @@ function Product_list({ product }) {
     <div onClick={() => {
       navigate(`/product/${product.id}`);
     }}
-      className="px-5 py-3 border-1 rounded-lg border-gray-500"
+      className="md:px-5 px-3 py-1 md:py-3 border-1 rounded-lg border-gray-500"
     >
-      <div id={product.id} className="text-center">
+      <div id={product.id} className="flex flex-col justify-center items-center text-center">
         <img
           src={product.image}
           alt={product.title}
-          className="h-35 w-40 rounded-xl"
+          className="md:h-35 md:w-40 w-30 h-33 rounded-xl"
         />
 
-        <h1 className="text-gray-800 font-semibold">{product.name}</h1>
+        <h1 className="text-gray-800 font-semibold w-40 truncate" title={product.name}>{product.name}</h1>
         <div className="text-sm flex flex-col gap-1">
           <h1>${product.price} </h1>
           <h1>Discount:{product.discountPercentage}</h1>
