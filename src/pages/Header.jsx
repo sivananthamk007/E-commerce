@@ -6,7 +6,7 @@ function Header() {
   const navigate = useNavigate();
   return (
 
-    <div className="bg-slate-500 py-3 text-center">
+    <div className="bg-indigo-300 py-3 text-center">
       <h1 className="font-semibold text-gray-900 text-lg">Tamil Skillhub</h1>
       <div className="flex md:gap-3 gap-3 justify-center md:my-2 my-4">
         <button onClick={() => navigate("/")} className="bg-green-700 text-white px-2 py-1 rounded text-sm cursor-pointer">
