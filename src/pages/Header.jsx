@@ -15,14 +15,13 @@ function Header() {
         <input
           type="text"
           placeholder="search..."
-          className="bg-white md:w-[350px] w-[250px] rounded ps-3"
+          className="bg-white md:w-[355px] w-[250px] rounded ps-3"
         />
         <button onClick={() => navigate("/cart")} className="bg-green-700 text-white px-2 py-1 rounded text-sm hover:cursor-pointer">
           Cart
         </button>
       </div>
     </div>
-
   );
 }
 export default Header;
